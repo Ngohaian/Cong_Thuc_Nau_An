@@ -1,0 +1,53 @@
+
+.site-footer {
+    background-color: white;
+    border-top: 5px solid #ff9933;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+    color: #444;
+    
+}
+
+.footer-container {
+    margin: 0 auto;
+    padding-bottom: 20px; 
+    display: flex;
+}
+
+.footer-col { flex: 1; }
+
+.about-blog h2 { font-size: 28px; margin-top: 0; color: #333; }
+.about-blog h2 span { color: #ff9933; }
+
+.footer-col h3 { font-size: 18px; text-transform: uppercase; margin-top: 0; color: #333; }
+.menu-links ul { list-style: none; padding: 0; margin: 0; }
+.menu-links ul li { margin-bottom: 10px; }
+.menu-links ul li a { color: #666; text-decoration: none; transition: 0.3s; }
+.menu-links ul li a:hover { color: #ff9933; padding-left: 5px; }
+
+.contact-info p { margin-bottom: 8px; font-size: 15px; }
+
+.footer-bottom { 
+    text-align: center; 
+    border-top: 1px solid #eee; 
+    padding-top: 20px; 
+    font-size: 14px; 
+    color: #888; 
+}
+.contact-btn{
+    display:inline-block;
+    background:#ff9933;
+    color: white !important;
+    padding:8px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    margin:6px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.contact-btn:hover{
+    background:#ff9933;
+}
+.site-footer a:hover{
+    transform: translateY(-2px);
+}

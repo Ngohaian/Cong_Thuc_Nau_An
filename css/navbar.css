@@ -1,0 +1,142 @@
+
+body{
+    background-color:#fffcf5;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Lato", sans-serif;}
+
+
+/* NAVBAR */
+
+.navbar{
+    max-width:1200px;
+    width:90%;
+    margin:auto;
+    background:white ;
+    gap:25px;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    z-index:999;
+}
+
+.navbar a{
+    padding:8px 10px;
+    margin-right:20px;
+    font-size: 18px;
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+    white-space: nowrap;
+}
+
+/* DROPDOWN */
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    top: 100%;
+    background:white;
+    min-width:150px;
+    margin-top: 10px;
+    z-index:1000;
+}
+
+.dropdown-content a{
+    display:block;
+    padding:10px 15px;
+    text-decoration:none;
+    font-weight: 600;
+    
+} 
+.dropdown-content a:hover{
+    background:#f5f5f5;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+/* LAYOUT */
+
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+/* LOGO */
+.logo{
+    padding: 10px 40px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    background-color: #ff9933;
+}
+
+.logo img{
+    max-height: 50px;
+    margin: 10px 10px 0 0px;
+}
+
+#logo{
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.logo a{
+    color: #ff9933;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    align-self:center;
+}
+
+.logo a:hover{
+    transform: translateY(-2px);
+}
+
+/* SEARCH BAR */
+.search-bar{
+    display:flex;
+    flex: 1;
+    color: white;
+    align-items: center;
+    margin:0 auto;
+    max-width:500px;
+}
+
+.search-bar input{
+    width:100%;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    width:100%;
+    font-size: 14px;
+}
+.search-bar button{
+    width: 50px; 
+    height:40px;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
